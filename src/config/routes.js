@@ -3,6 +3,7 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import About from '../components/About/About';
 import App from '../components/App/App';
 import Home from '../components/Home/Home';
+import Autocomplete from '../components/Autocomplete/Autocomplete';
 
 const routes = (props) => {
   return (
@@ -10,6 +11,7 @@ const routes = (props) => {
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
         <Route path="about" component={About} />
+        <Route path="autocomplete" component={Autocomplete} />
       </Route>
     </Router>
   );

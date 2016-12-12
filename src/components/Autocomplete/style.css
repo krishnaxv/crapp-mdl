@@ -1,0 +1,14 @@
+.autocomplete {
+  display: flex;
+  flex-direction: column;
+}
+
+.autocomplete__options, .mdl-menu__container, .mdl-menu__container > div, .mdl-menu__container > ul {
+  width: 300px !important;
+  max-width: 100%;
+}
+
+.autocomplete__options {
+  margin-top: -20px;
+  position: relative;
+}

@@ -10,6 +10,9 @@ const Navigation = () => {
       <Link to="/about" className="mdl-navigation__link">
         About
       </Link>
+      <Link to="/autocomplete" className="mdl-navigation__link">
+        Autocomplete
+      </Link>
     </nav>
   );
 }
