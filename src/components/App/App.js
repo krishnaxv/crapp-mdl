@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// `componentHandler` from MDL to upgrade JS elements
+// eslint-disable-next-line import/no-webpack-loader-syntax
 import componentHandler from 'exports?componentHandler!material-design-lite/material';
 import Header from '../Header/Header';
 import Menu from '../Menu/Menu';

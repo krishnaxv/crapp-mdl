@@ -1,8 +1,8 @@
 import React from 'react';
 
-const AutocompleteOption = ({ option }) => {
+const AutocompleteOption = ({ option, handleOptionClick }) => {
   return (
-    <li className="mdl-menu__item">{option}</li>
+    <li className="mdl-menu__item" onClick={e => handleOptionClick(e)}>{option}</li>
   );
 }
 

@@ -3,9 +3,14 @@
   flex-direction: column;
 }
 
-.autocomplete__options, .mdl-menu__container, .mdl-menu__container > div, .mdl-menu__container > ul {
+.autocomplete__options, .autocomplete__options .mdl-menu__container, .autocomplete__options .mdl-menu__container > div, .autocomplete__options .mdl-menu__container > ul {
   width: 300px !important;
   max-width: 100%;
+}
+
+.autocomplete__options .mdl-menu__container > ul {
+  max-height: 176px;
+  overflow-y: auto;
 }
 
 .autocomplete__options {
